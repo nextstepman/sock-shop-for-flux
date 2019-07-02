@@ -5,6 +5,7 @@ metadata:
   labels:
     application: catalogue-db
   name: catalogue-db
+  namespace: sock-shop  
 spec:
   ports:
   - name: "3306"
