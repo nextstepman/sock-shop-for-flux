@@ -6,8 +6,6 @@ metadata:
     application: catalogue-db
   name: catalogue-db
   namespace: sock-shop
-  annotations:
-    flux.weave.works/tag.catalogue-db: semver:*
 spec:
   replicas: 1
   strategy: {}
