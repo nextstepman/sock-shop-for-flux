@@ -1,0 +1,8 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    application: catalogue
+  name: catalogue
+  namespace: sock-shop
