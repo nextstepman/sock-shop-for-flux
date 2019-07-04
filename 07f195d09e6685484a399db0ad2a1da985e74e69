@@ -1,0 +1,1 @@
+{"jobID":"354fd5a5-e503-9f0c-e35a-5d63ac01fa44","spec":{"type":"policy","cause":{"Message":"","User":"Richard Scholz \u003crichard.scholz@senacor.com\u003e"},"spec":{"sock-shop:deployment/catalogue":{"add":{"locked":"true","locked_msg":"","locked_user":"Richard Scholz \u003crichard.scholz@senacor.com\u003e"},"remove":{}}}},"result":null}
