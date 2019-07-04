@@ -8,8 +8,6 @@ metadata:
   namespace: sock-shop
   annotations:
     flux.weave.works/automated: "false"
-    flux.weave.works/locked_user: Richard Scholz <richard.scholz@senacor.com>
-    flux.weave.works/locked: 'true'
 spec:
   replicas: 1
   strategy: {}
