@@ -1,0 +1,10 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    flux.weave.works/locked: "true"
+    flux.weave.works/locked_msg: Lock deployment
+    flux.weave.works/locked_user: Bla Fasel <blub@no.email>
+  name: catalogue
+  namespace: sock-shop
