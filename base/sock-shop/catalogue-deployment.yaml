@@ -1,0 +1,42 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    application: catalogue
+  name: catalogue
+  namespace: sock-shop
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        application: catalogue
+    spec:
+      containers:
+      - image: weaveworksdemos/catalogue:0.3.4
+        name: catalogue
+        ports:
+        - containerPort: 80
+        livenessProbe:
+          exec:
+            command:
+            - wget
+            - -O-
+            - http://localhost:80/health
+          initialDelaySeconds: 60
+          periodSeconds: 30
+          failureThreshold: 5
+        readinessProbe:
+          exec:
+            command:
+            - wget
+            - -O-
+            - http://localhost:80/health
+          initialDelaySeconds: 30
+          periodSeconds: 20
+          failureThreshold: 10
+        resources: {}
+      hostname: catalogue
+      restartPolicy: Always
