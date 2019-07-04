@@ -1,0 +1,9 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    flux.weave.works/locked: "true"
+    flux.weave.works/locked_user: Richard Scholz <7677934+nextstepman@users.noreply.github.com>
+  name: catalogue-db
+  namespace: other-shop
