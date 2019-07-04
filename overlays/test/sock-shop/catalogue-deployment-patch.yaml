@@ -6,8 +6,6 @@ metadata:
     application: catalogue
   name: catalogue
   namespace: sock-shop
-  annotations:
-    flux.weave.works/automated: "false"
 spec:    
   template:
     spec:
