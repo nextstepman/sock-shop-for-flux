@@ -1,0 +1,1 @@
+{"jobID":"539c350b-3f83-a36a-b11d-7202d2ab6805","spec":{"type":"policy","cause":{"Message":"","User":"Richard Scholz \u003c7677934+nextstepman@users.noreply.github.com\u003e"},"spec":{"other-shop:deployment/catalogue-db":{"add":{"locked":"true","locked_msg":"","locked_user":"Richard Scholz \u003c7677934+nextstepman@users.noreply.github.com\u003e"},"remove":{}}}},"result":null}
