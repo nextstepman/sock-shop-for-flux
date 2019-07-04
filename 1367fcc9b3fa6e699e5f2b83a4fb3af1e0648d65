@@ -1,0 +1,1 @@
+{"jobID":"9fa7a671-aabd-5da5-1ab3-58bd43dfeb16","spec":{"type":"policy","cause":{"Message":"","User":"Richard Scholz \u003crichard.scholz@senacor.com\u003e"},"spec":{"sock-shop:deployment/catalogue":{"add":{"tag_all":"semver:*"},"remove":{}}}},"result":null}
